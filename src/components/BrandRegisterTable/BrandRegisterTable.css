@@ -1,0 +1,93 @@
+.brand-container {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  margin: 20px auto;
+  background: var(--color-light-gray);
+  border-radius: 8px;
+  min-height: 100vh;
+}
+.brand-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  background: white;
+}
+
+.brand-table tr {
+  height: 70px !important;
+}
+
+.brand-table th {
+  color: var(--color-dark-gray);
+  border-bottom: 2px solid var(--color-background);
+  text-align: center;
+  padding: 16px;
+}
+
+.brand-table th {
+  color: var(--color-dark-gray);
+}
+
+.brand-table td {
+  background-color: white;
+  padding: 5px 16px;
+  border-bottom: 2px solid var(--color-gray);
+}
+
+.brand-table tr:nth-child(even) {
+  border-left: 4px solid var(--color-gray);
+}
+
+.brand-table tbody tr:nth-child(odd) {
+  border-left: 4px solid var(--color-red);
+}
+
+.brand-table tr:hover td {
+  cursor: pointer;
+  background-color: var(--color-light-gray);
+}
+
+.brand-table img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.brand-sales-type {
+  width: 40px;
+  position: relative;
+  top: -5px;
+}
+
+.brand-col {
+  display: flex;
+  color: var(--color-blue) !important;
+}
+
+.brand-payment-method {
+  display: flex;
+  width: 50px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+.brand-payment-method-number {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin: 0px auto;
+}
+
+.brand-column {
+  text-align: start !important;
+}
+
+.brand-column-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  text-align: start !important;
+}
