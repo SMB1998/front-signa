@@ -1,8 +1,8 @@
 import React from "react";
-import "./Sidebar.css";
 import { Link } from "react-router-dom";
 import { Home, Dashboard } from "@mui/icons-material";
 import Switch from "@mui/material/Switch";
+import "./Sidebar.css";
 
 interface SidebarProps {
   isCollapsed: boolean;
