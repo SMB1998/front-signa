@@ -1,38 +1,37 @@
-# Transactions Dashboard
+# CRUD Registro de marca
 
-This project is a web application developed as part of a technical test for **Bold**. It allows users to view and manage transactions from different payment methods interactively. The application retrieves and displays data related to the transactions and their status. This project was developed by **Santiago Muñoz B.**.
+Este proyecto es una aplicación web desarrollada como parte de una prueba técnica para **Signa**. La aplicación permite a los usuarios gestionar registros de marcas a través de un CRUD (Crear, Leer, Actualizar y Eliminar) interactivo. Los usuarios pueden registrar nuevas marcas, editar la información de marcas existentes, y eliminarlas si es necesario.
 
-## Content table
+## Tabla de Contenidos
 
-- [Used Technologies](#used-technologies)
-- [instalation](#instalation)
-- [build](#build)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Instalación](#instalación)
+- [Construcción](#construcción)
 - [Demo](#demo)
 
-## Used Technologies
+## Tecnologías Utilizadas
 
 - **Frontend**:
   - React
   - Hooks
   - Redux
   - CSS
-- **Tools**:
+- **Herramientas**:
   - Node.js
   - npm
 
-## set up
+## Configuración
 
-To setup and run the aplication follow those steps:
+Para configurar y ejecutar la aplicación, sigue estos pasos:
 
-1. **Clone the repo**.  
-    Clone the repo on your local machine using:
+1. **Clonar el repositorio**.  
+   Clona el repositorio en tu máquina local usando:
 
-   ````bash
-   git clone https://github.com/SMB1998/test-bold-fe.git
+   ```bash
+   git clone https://github.com/SMB1998/front-signa
+
 
    ```
-
-   ````
 
 1. **Installation**  
    npm install &&
@@ -41,10 +40,6 @@ To setup and run the aplication follow those steps:
 1. **Build**  
    npm run build
 
-1. **Plain CSS usage on this project**:
-
-   I used plain CSS in this project because it is a small application and to ensure compatibility across different browsers. Since it is a small project, it didn't require the additional complexity offered by preprocessors like Sass. However, for larger and more scalable projects, I would consider using Sass for its advantages in terms of modularity and code reuse.
-
 1. **Deployed Demo**:
 
-- https://test-bold-fe.vercel.app/
+- https://front-signa-lwmw.vercel.app/
