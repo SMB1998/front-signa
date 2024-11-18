@@ -31,13 +31,23 @@ const Sidebar: React.FC<SidebarProps> = ({ isCollapsed, toggleSidebar }) => {
         />
       </div>
       <ul>
-        <li>
+        <li
+          style={{
+            textAlign: isCollapsed ? "center" : "start",
+            justifyContent: isCollapsed ? "center" : "flex-start",
+          }}
+        >
           <Link to="/dashboard">
             <Home />
             {!isCollapsed && "Dashboard"}{" "}
           </Link>
         </li>
-        <li>
+        <li
+          style={{
+            textAlign: isCollapsed ? "center" : "start",
+            justifyContent: isCollapsed ? "center" : "flex-start",
+          }}
+        >
           <Link to="/brand">
             <Dashboard />
             {!isCollapsed && "Registro de marca"}{" "}

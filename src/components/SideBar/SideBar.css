@@ -35,7 +35,7 @@
 
 .sidebar li {
   padding: 10px;
-  text-align: center;
+  text-align: start;
 }
 
 .sidebar li a {
@@ -71,8 +71,8 @@
 
 .sidebar.collapsed ul li {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .sidebar.collapsed ul li a::before {
